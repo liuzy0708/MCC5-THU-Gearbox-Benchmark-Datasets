@@ -3,11 +3,6 @@
 ## Overview
 This repository contains vibration datasets in ".csv" format collected from a gearbox under variable working conditions. The data includes three-axis vibration acceleration signals from the motor drive end and the gearbox intermediate shaft, key phase signals (speed data) from the motor output shaft, and torque data from the gearbox input shaft. These datasets are valuable for research in vibration analysis, machine condition monitoring, and fault diagnosis in mechanical engineering applications.
 
-## Citation
-If you use this dataset in your research, please cite the following article:
-```
-Z. Liu, C. Li and X. He, "Evidential ensemble preference-guided learning approach for real-time multimode fault diagnosis," IEEE Transactions on Industrial Informatics, doi: 10.1109/TII.2023.3332112.
-```
 
 ## Data Description
 - **Type**: Datasets in ".csv" format
@@ -25,6 +20,12 @@ Vibration, machine condition monitoring, fault diagnosis, gearbox, variable work
 
 ## License
 This dataset is provided under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). Please refer to the LICENSE file for more details.
+
+## Citation
+If you use this dataset in your research, please cite the following article:
+```
+
+```
 
 ## Acknowledgements
 We thank MCC5 Group Shanghai Co. LTD and the Department of Automation at Tsinghua University for their contribution to collecting and providing access to the dataset.
