@@ -22,10 +22,11 @@ This repository houses a rich and extensive dataset capturing vibration signals 
 Each dataset was measured with a sampling frequency of 12.8 kHz. The datasets were stored in the standard Excel format, ".csv," in a single column without a time stamp. They were collected at time-varying speeds or time-varying loads for a fixed duration of 60 seconds, with the set speed-time curve and load-time curve depicted as follows. The number of colors in the figure is used to distinguish groups of experiments. Taking the 0-2500-3000 situation marked in blue in Figure 2(a) as an example, it means that the speed is set to 3000 rpm within 10-20 seconds and within 40-50 seconds. At the same time, the rotation speed is set to 2500 rpm within 25-30 seconds.
 
 The set time-varying speed-time curve:
-![Speed-Time Curve](https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/5f955088-bceb-4a19-94b2-480185dbb5a7)
+<img width="443" alt="Speed-Time Curve" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/5f955088-bceb-4a19-94b2-480185dbb5a7">
 
-The set time-varying load-time curve:
-![Load-Time Curve](https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/192cae08-3707-4883-b3ac-250a6166b4e2)
+The set time-varying load-time curve: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<img width="413" alt="Load-Time Curve" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/3e1e0989-4b3a-4ae4-92b6-616fa0a66234">
+
 
 
 ## Data Content
@@ -49,6 +50,10 @@ The experimental setup for this dataset comprises the following components:
 - **Magnetic Powder Brake:** Acting as a torque generator, the magnetic powder brake applies a torque load to the gearbox.
   
 - **Measurement and Control System:** An advanced measurement and control system is utilized to monitor and regulate the experimental parameters.
+
+The internal structure diagram of the gearbox：
+<img width="492" alt="截屏2024-04-10 16 59 07" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/bc6f3ff3-4379-457e-9dcb-5a2484e3b803">
+
 
 This dataset aims to simulate and meticulously document various fault conditions associated with the 36-tooth gear on the intermediate shaft and its adjacent support bearings under diverse operating modes. The magnetic powder brake is pivotal in applying torque loads to the gearbox, enabling the simulation of real-world operational conditions.
 
