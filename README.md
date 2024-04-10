@@ -82,6 +82,8 @@ Researchers utilizing this dataset are kindly requested to cite the following ar
 ```
 
 ## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
-We express our gratitude to the MCC5 Group Shanghai Co. LTD and the Department of Automation at Tsinghua University for their invaluable support in providing the dataset and facilitating this research endeavor.
+We extend our sincere gratitude to the THUFDD Group, led by Prof. Xiao He and Prof. Donghua Zhou, for their invaluable support and contributions to the development of this scheme.
+We express our gratitude to the MCC5 Group Shanghai Co. LTD for their invaluable support.
