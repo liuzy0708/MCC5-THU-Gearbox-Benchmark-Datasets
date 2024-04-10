@@ -1,6 +1,6 @@
 # Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions
 
-<img width="999" alt="image" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/219624fe-f5ac-4487-9387-1e2f92183234">
+<img width="666" alt="image" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/219624fe-f5ac-4487-9387-1e2f92183234">
 
 ## Overview
 This repository houses a rich and extensive dataset capturing vibration signals emanating from a gearbox operating under a spectrum of variable speed and load conditions. These datasets are meticulously crafted to encompass various fault types, degrees, and operational scenarios, serving as a pivotal resource for researchers and practitioners delving into vibration analysis, machine condition monitoring, and fault diagnosis within the realm of mechanical engineering.
