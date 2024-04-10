@@ -51,8 +51,10 @@ The experimental setup for this dataset comprises the following components:
   
 - **Measurement and Control System:** An advanced measurement and control system is utilized to monitor and regulate the experimental parameters.
 
-The internal structure diagram of the gearbox：
+#### The internal structure diagram of the gearbox：
+
 <img width="492" alt="截屏2024-04-10 16 59 07" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/bc6f3ff3-4379-457e-9dcb-5a2484e3b803">
+</div>
 
 
 This dataset aims to simulate and meticulously document various fault conditions associated with the 36-tooth gear on the intermediate shaft and its adjacent support bearings under diverse operating modes. The magnetic powder brake is pivotal in applying torque loads to the gearbox, enabling the simulation of real-world operational conditions.
