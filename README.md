@@ -8,8 +8,12 @@ This repository houses a rich and extensive dataset capturing vibration signals 
 ## Data Availability
 - **Repository Name:** Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions
 - **Data Identification Number:** 10.17632/p92gj2732w.1
-- **Direct URL:** [https://data.mendeley.com/datasets/p92gj2732w/1](https://data.mendeley.com/datasets/p92gj2732w/1)
+- **Direct URL:**
+  [[Mendeley Data]](https://data.mendeley.com/datasets/p92gj2732w/2)
+  [[IEEE Dataport]](https://ieee-dataport.org/documents/multi-mode-fault-diagnosis-datasets-gearbox-under-variable-working-conditions)
+- **Data Article** [[Paper]](https://arxiv.org/abs/2403.12521)
 
+  
 ## Data Description
 - **Data Format:** CSV
 - **Total Datasets:** 240 sets of time series data
