@@ -71,7 +71,14 @@ Datasets were collected and meticulously processed under 12 distinct working con
 ## Citation
 Researchers utilizing this dataset are kindly requested to cite the following article:
 ```
-Z. Liu, C. Li and X. He, "Evidential ensemble preference-guided learning approach for real-time multimode fault diagnosis," IEEE Transactions on Industrial Informatics, doi: 10.1109/TII.2023.3332112.
+@misc{chen2024multimode,
+      title={Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions}, 
+      author={Shijin Chen and Zeyi Liu and Xiao He and Dongliang Zou and Donghua Zhou},
+      year={2024},
+      eprint={2403.12521},
+      archivePrefix={arXiv},
+      primaryClass={eess.SY}
+}
 ```
 
 ## License
