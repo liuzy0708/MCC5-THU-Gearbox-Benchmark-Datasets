@@ -21,10 +21,12 @@ This repository houses a rich and extensive dataset capturing vibration signals 
 
 Each dataset was measured with a sampling frequency of 12.8 kHz. The datasets were stored in the standard Excel format, ".csv," in a single column without a time stamp. They were collected at time-varying speeds or time-varying loads for a fixed duration of 60 seconds, with the set speed-time curve and load-time curve depicted as follows. The number of colors in the figure is used to distinguish groups of experiments. Taking the 0-2500-3000 situation marked in blue in Figure 2(a) as an example, it means that the speed is set to 3000 rpm within 10-20 seconds and within 40-50 seconds. At the same time, the rotation speed is set to 2500 rpm within 25-30 seconds.
 
-The set time-varying speed-time curve:
+#### The set time-varying speed-time curve:
+
 <img width="443" alt="Speed-Time Curve" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/5f955088-bceb-4a19-94b2-480185dbb5a7">
 
-The set time-varying load-time curve: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+#### The set time-varying load-time curve: 
+
 <img width="413" alt="Load-Time Curve" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/3e1e0989-4b3a-4ae4-92b6-616fa0a66234">
 
 
@@ -33,8 +35,8 @@ The set time-varying load-time curve: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Each dataset comprises 8 columns, detailing:
 - **Speed:** Key phase signal of the motor output shaft (dimensionless)
 - **Torque:** Torque applied to the gearbox input shaft (Nm)
-- **Motor Vibration (X,Y,Z):** Axial, horizontal, and vertical vibration acceleration at the motor drive end (g)
-- **Gearbox Vibration (X,Y,Z):** Axial, horizontal, and vertical vibration acceleration at the gearbox intermediate shaft bearing seat (g)
+- **Motor Vibration (x, y, z):** Axial, horizontal, and vertical vibration acceleration at the motor drive end (g)
+- **Gearbox Vibration (x, y, z):** Axial, horizontal, and vertical vibration acceleration at the gearbox intermediate shaft bearing seat (g)
 
 
 ## Experimental Setup
