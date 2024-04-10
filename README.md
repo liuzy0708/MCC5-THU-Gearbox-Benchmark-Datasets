@@ -21,6 +21,13 @@ This repository houses a rich and extensive dataset capturing vibration signals 
 
 Each dataset was measured with a sampling frequency of 12.8 kHz. The datasets were stored in the standard Excel format, ".csv," in a single column without a time stamp. They were collected at time-varying speeds or time-varying loads for a fixed duration of 60 seconds, with the set speed-time curve and load-time curve depicted as follows. The number of colors in the figure is used to distinguish groups of experiments. Taking the 0-2500-3000 situation marked in blue in Figure 2(a) as an example, it means that the speed is set to 3000 rpm within 10-20 seconds and within 40-50 seconds. At the same time, the rotation speed is set to 2500 rpm within 25-30 seconds.
 
+The set time-varying speed-time curve:
+![Speed-Time Curve](https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/5f955088-bceb-4a19-94b2-480185dbb5a7)
+
+The set time-varying load-time curve:
+![Load-Time Curve](https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/192cae08-3707-4883-b3ac-250a6166b4e2)
+
+
 ## Data Content
 Each dataset comprises 8 columns, detailing:
 - **Speed:** Key phase signal of the motor output shaft (dimensionless)
@@ -30,16 +37,26 @@ Each dataset comprises 8 columns, detailing:
 
 
 ## Experimental Setup
-The dataset originates from a meticulously designed experimental setup comprising:
-- A robust 2.2 kW three-phase asynchronous motor
-- Precision torque sensor for measuring input shaft torque
-- Two-stage parallel gearbox
-- Magnetic powder brake serving as a torque generator
-- Advanced measurement and control system
 
+The experimental setup for this dataset comprises the following components:
 
-## Experimental Design, Materials and Methods
-The experimental setup for the dataset is shown in Figure 4, which consists of a 2.2 kW three-phase asynchronous motor, a torque sensor, a two-stage parallel gearbox, a magnetic powder brake acting as a torque generator, and a measurement and control system. This dataset aims to simulate and document various fault conditions of the 36-tooth gear on the intermediate shaft and its adjacent support bearings under different operating modes. The magnetic powder brake is used to apply a torque load to the gearbox. The actual torque endured by the gearbox input shaft can be measured by a torque sensor (model S2001, synthetic accuracy: ±0.5%F.S). The speed sensor is used to measure the key phase signal of the motor output shaft, and the motor output shaft speed can be calculated from the key phase signal. The test rig, as depicted in Figure 4, is equipped with two three-axis vibration acceleration sensors (model TES001V, sensitivity: 100 mv/g) that were used to measure motor and gearbox intermediate shaft triaxial vibrations along the x-, y-, and z-axes at a sampling frequency of 12.8 kHz. The datasets were collected and processed under 12 working conditions. In order to reduce the experimental error and measurement error caused by temperature, the temperature difference in the laboratory is controlled within the range of 2℃.
+- **2.2 kW Three-Phase Asynchronous Motor:** The motor serves as the primary power source in the experimental setup.
+  
+- **Torque Sensor:** A precision torque sensor (model S2001) is employed to measure the torque applied to the gearbox input shaft with a synthetic accuracy of ±0.5%F.S.
+  
+- **Two-Stage Parallel Gearbox:** The gearbox system used in the setup is of the two-stage parallel type.
+  
+- **Magnetic Powder Brake:** Acting as a torque generator, the magnetic powder brake applies a torque load to the gearbox.
+  
+- **Measurement and Control System:** An advanced measurement and control system is utilized to monitor and regulate the experimental parameters.
+
+This dataset aims to simulate and meticulously document various fault conditions associated with the 36-tooth gear on the intermediate shaft and its adjacent support bearings under diverse operating modes. The magnetic powder brake is pivotal in applying torque loads to the gearbox, enabling the simulation of real-world operational conditions.
+
+The actual torque endured by the gearbox input shaft is precisely measured by the torque sensor, ensuring accurate data collection. Additionally, a speed sensor is employed to measure the key phase signal of the motor output shaft, enabling the calculation of motor output shaft speed from the key phase signal.
+
+The test rig is equipped with two three-axis vibration acceleration sensors (model TES001V) capable of measuring motor and gearbox intermediate shaft triaxial vibrations along the x-, y-, and z-axes at a sampling frequency of 12.8 kHz.
+
+Datasets were collected and meticulously processed under 12 distinct working conditions. To minimize experimental and measurement errors induced by temperature variations, laboratory temperature differences were rigorously controlled within a range of 2$^o$C.
 
 
 ## Citation
