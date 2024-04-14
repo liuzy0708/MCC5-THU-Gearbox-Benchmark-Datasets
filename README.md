@@ -17,6 +17,7 @@ This repository houses a rich and extensive dataset capturing vibration signals 
 - **Compund Fault Diagnosis**
 - **Fault Diagnosis With Different Fault Severity Degrees**
 - **Fault Diagnosis With Multiple Steady Working Conditions**
+- **Fault Diagnosis With Unknown Working Conditions**
 - **Fault Diagnosis With Variable Working Conditions**
 - **Fault Diagnosis With Transitional Working Conditions**
 
