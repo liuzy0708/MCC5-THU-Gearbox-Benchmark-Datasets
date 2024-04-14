@@ -13,7 +13,11 @@ This repository houses a rich and extensive dataset capturing vibration signals 
   [[IEEE Dataport]](https://ieee-dataport.org/documents/multi-mode-fault-diagnosis-datasets-gearbox-under-variable-working-conditions)
 - **Data Article** [[Paper]](https://arxiv.org/abs/2403.12521)
 
-  
+## Tasks
+- **Compund Fault Diagnosis**
+- **Safety Assessment**
+
+
 ## Data Description
 - **Data Format:** CSV
 - **Total Datasets:** 240 sets of time series data
