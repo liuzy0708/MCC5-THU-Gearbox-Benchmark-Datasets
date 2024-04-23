@@ -83,13 +83,13 @@ Datasets were collected and meticulously processed under 12 distinct working con
 ## Citation
 Researchers utilizing this dataset are kindly requested to cite the following article:
 ```
-@misc{chen2024multimode,
-      title={Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions}, 
-      author={Shijin Chen and Zeyi Liu and Xiao He and Dongliang Zou and Donghua Zhou},
-      year={2024},
-      eprint={2403.12521},
-      archivePrefix={arXiv},
-      primaryClass={eess.SY}
+@article{CHEN2024110453,
+title = {Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions},
+journal = {Data in Brief},
+pages = {110453},
+year = {2024},
+doi = {https://doi.org/10.1016/j.dib.2024.110453},
+author = {Shijin Chen and Zeyi Liu and Xiao He and Dongliang Zou and Donghua Zhou},
 }
 ```
 
