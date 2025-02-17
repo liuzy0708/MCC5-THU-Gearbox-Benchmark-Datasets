@@ -65,6 +65,8 @@ The experimental setup for this dataset comprises the following components:
   
 - **Measurement and Control System:** An advanced measurement and control system is utilized to monitor and regulate the experimental parameters.
 
+- The model of the data acquisition system: CMS-ONE-DAQ16, with a maximum sampling frequency of 128 kHz and an analog-to-digital conversion accuracy of 24 bits.
+
 #### The internal structure diagram of the gearbox：
 
 <img width="492" alt="截屏2024-04-10 16 59 07" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/bc6f3ff3-4379-457e-9dcb-5a2484e3b803">
