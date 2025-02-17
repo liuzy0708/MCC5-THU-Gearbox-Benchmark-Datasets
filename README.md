@@ -33,6 +33,55 @@ This repository houses a rich and extensive dataset capturing vibration signals 
 
 Each dataset was measured with a sampling frequency of 12.8 kHz. The datasets were stored in the standard Excel format, ".csv," in a single column without a time stamp. They were collected at time-varying speeds or time-varying loads for a fixed duration of 60 seconds, with the set speed-time curve and load-time curve depicted as follows. The number of colors in the figure is used to distinguish groups of experiments. Taking the 0-2500-3000 situation marked in blue in Figure 2(a) as an example, it means that the speed is set to 3000 rpm within 10-20 seconds and within 40-50 seconds. At the same time, the rotation speed is set to 2500 rpm within 25-30 seconds.
 
+## Usage
+- If you want to perform visual analysis on a specific file, you can refer to the demo files in the "visual" folder.
+- **Note: The `.m` file and the CSV file to be plotted must be placed in the same directory.**
+- The demo files use examples with varying speed conditions: `plot_torque_change_speed.m` visualizes the 'torque' channel under varying speed conditions, while `plot_speed_change_speed.m` visualizes the 'speed' channel under varying speed conditions.
+- First, you need to set the fault type, fault level, and speed/load conditions to retrieve the target CSV file:
+```
+% Define the regular expression for searching file names
+fault_name = 'gear_pitting';
+fault_level = 'L';
+mode_name = 'speed';
+torque_choice = '20Nm';
+speed_choice = '3000rpm';
+```
+
+- For the **torque** channel signal, during the experiment, the load is applied on the output shaft, while the measurement is taken on the input shaft. Therefore, there is a scaling factor between the measurement and the actual load, approximately 6 times.
+```
+% Extract the column named 'torque'
+time_series_data = table_data.torque;
+time_series_data = time_series_data .* 6;
+```
+- For the **speed** channel signal, since the measured value during the experiment is dimensionless speed, some processing is required to obtain the actual speed variation plot.
+
+```
+% Extract the column named 'speed'
+time_series_data = table_data.speed;
+time_series_data(time_series_data <= 2) = 0;
+time_series_data(time_series_data > 2) = 1;
+
+% Find the positions of the rising edges
+rising_edges_index = find(diff(time_series_data) == 1);
+
+% Create a time series
+time = linspace(0, 60, numel(time_series_data));
+
+% Extract the time points corresponding to each rising edge
+rising_time_point = time(rising_edges_index);
+
+% Calculate the intervals between adjacent rising edges
+period = diff(rising_time_point);
+frequency = 1 ./ period;
+speed = frequency .* 60;
+
+% Compute the moving average of the rising edge time points (with a window of 2)
+mean_time_point = movmean(rising_time_point, 2);
+
+% Remove the first value of the moving average
+mean_time_point = mean_time_point(2:end);
+```
+
 #### The set time-varying speed-time curve:
 
 <img width="443" alt="Speed-Time Curve" src="https://github.com/liuzy0708/MCC-THU-Gearbox-Fault-Diagnosis-Datasets/assets/115722686/5f955088-bceb-4a19-94b2-480185dbb5a7">
