@@ -7,7 +7,6 @@ This repository houses a rich and extensive dataset capturing vibration signals 
 
 ## Data Availability
 - **Repository Name:** Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions
-- **Data Identification Number:** 10.17632/p92gj2732w.1
 - **Direct URL:**
   [[Mendeley Data]](https://data.mendeley.com/datasets/p92gj2732w/2)
   [[IEEE Dataport]](https://ieee-dataport.org/documents/multi-mode-fault-diagnosis-datasets-gearbox-under-variable-working-conditions)
@@ -155,3 +154,8 @@ We express our gratitude to the MCC5 Group Shanghai Co. LTD for their invaluable
 ## Views
 ![](http://profile-counter.glitch.me/liuzy0708-MCC5-THU-Gearbox-Benchmark-Datasets/count.svg)
 
+## Remark
+
+As stated in our paper, it is important to account for a multiplication factor due to the load applied to the output shaft, with measurements being taken from the input shaft. This factor is approximately 6. Additionally, please be aware that some unavoidable noise may occur during the start-stop phase of the equipment, although this is typically negligible and can generally be disregarded.
+
+Furthermore, in Version 1 of the dataset, an issue was identified with the torque measurements, specifically that the sign of the torque was reversed. This issue has been rectified in Version 2 of the dataset. Kindly ensure that the [[Latest Version]](https://data.mendeley.com/datasets/p92gj2732w/2) is being used for accurate results. We will continue to provide updates as needed.
