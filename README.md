@@ -157,6 +157,7 @@ The following research works have utilized the **Multi-mode Fault Diagnosis Data
 | Imbalanced real-time fault diagnosis based on minority-prioritized online semi-supervised random vector functional link network | IEEE Transactions on Instrumentation and Measurement | 2024 |
 | Composite fault diagnosis of gearbox based on deep graph residual convolutional network | Engineering Research Express | 2024 |
 
+Furthermore, we sincerely appreciate the NASA Ames Research Center and its team for their development and contribution to the open-source Python prognostics tool, ProgPy. We are especially grateful for their analysis and interpretation of the MCC5-THU gearbox fault diagnosis dataset's organizational structure in their technical report. This effort not only enhances the dataset’s applicability in the field of Condition Monitoring and Diagnostics (CM&D) but also provides valuable insights for further research. We look forward to the continued development of ProgPy in the field of Prognostics and Health Management (PHM), driving advancements in intelligent maintenance and fault diagnosis technologies.
 
 ### **Preprints & Ongoing Research**
 - If you have used this dataset in your research, please feel free to share your published work with us. We are happy to include it in this list to support the research community. We sincerely appreciate the support of the research community and encourage researchers to share their publications using this dataset. Thank you for your contributions!
