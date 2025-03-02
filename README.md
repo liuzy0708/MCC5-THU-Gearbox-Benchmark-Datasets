@@ -142,6 +142,27 @@ doi = {https://doi.org/10.1016/j.dib.2024.110453},
 author = {Shijin Chen and Zeyi Liu and Xiao He and Dongliang Zou and Donghua Zhou},
 }
 ```
+## Publications Using This Dataset
+
+The following research works have utilized the **Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions** for experiments and analysis:
+
+### **Journal Articles**
+| Title | Authors | Journal | DOI |
+|-------|---------|---------|-----|
+| [Title of Paper 1](DOI/link) | Author names | Journal name | [DOI link](DOI/link) |
+| [Title of Paper 2](DOI/link) | Author names | Journal name | [DOI link](DOI/link) |
+
+### **Conference Papers**
+| Title | Authors | Conference | DOI/Link |
+|-------|---------|------------|----------|
+| [Title of Paper 3](DOI/link) | Author names | Conference name | [DOI link](DOI/link) |
+
+---
+
+
+### **Preprints & Ongoing Research**
+- If you have used this dataset in your research, please feel free to share your published work with us. We are happy to include it in this list to support the research community.
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
