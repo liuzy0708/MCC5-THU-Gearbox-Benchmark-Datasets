@@ -144,24 +144,22 @@ author = {Shijin Chen and Zeyi Liu and Xiao He and Dongliang Zou and Donghua Zho
 ```
 ## Publications Using This Dataset
 
-The following research works have utilized the **Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions** for experiments and analysis:
+The following research works have utilized the **Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions** for experiments and analysis. Researchers can refer to the following articles for further insights:
 
-### **Journal Articles**
-| Title | Authors | Journal | DOI |
-|-------|---------|---------|-----|
-| [Title of Paper 1](DOI/link) | Author names | Journal name | [DOI link](DOI/link) |
-| [Title of Paper 2](DOI/link) | Author names | Journal name | [DOI link](DOI/link) |
-
-### **Conference Papers**
-| Title | Authors | Conference | DOI/Link |
-|-------|---------|------------|----------|
-| [Title of Paper 3](DOI/link) | Author names | Conference name | [DOI link](DOI/link) |
-
----
+| Title | Journal | Year |
+|-------|---------|------|
+| Knowledge-informed FIR-based cross-category filtering framework for interpretable machinery fault diagnosis under small samples | Reliability Engineering & System Safety | 2025 |
+| Vibration-based gear wear area monitoring for quantitative assessment of wear severity under variable speed conditions | Mechanical Systems and Signal Processing | 2025 |
+| Geometry-Based Synchrosqueezing S-Transform with Shifted Instantaneous Frequency Estimator Applied to Gearbox Fault Diagnosis | Sensors | 2025 |
+| A Novel Compound Fault Diagnosis Method for Rotating Machinery based on Dynamic Adaptive MWPE and Dual-Graph Regularization Strategy | IEEE Sensors Journal | 2025 |
+| A multi-sensor fault diagnosis model with adaptive spatial-temporal dual-scale re-modeling | IEEE Sensors Journal | 2024 |
+| Accurate and Efficient Instantaneous Angular Speed Estimation Method for Rolling Bearing Under Time-varying Speed | IEEE Transactions on Instrumentation and Measurement | 2024 |
+| Imbalanced real-time fault diagnosis based on minority-prioritized online semi-supervised random vector functional link network | IEEE Transactions on Instrumentation and Measurement | 2024 |
+| Composite fault diagnosis of gearbox based on deep graph residual convolutional network | Engineering Research Express | 2024 |
 
 
 ### **Preprints & Ongoing Research**
-- If you have used this dataset in your research, please feel free to share your published work with us. We are happy to include it in this list to support the research community.
+- If you have used this dataset in your research, please feel free to share your published work with us. We are happy to include it in this list to support the research community. We sincerely appreciate the support of the research community and encourage researchers to share their publications using this dataset. Thank you for your contributions!
 
 
 ## License
