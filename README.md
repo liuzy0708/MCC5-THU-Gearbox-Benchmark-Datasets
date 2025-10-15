@@ -39,16 +39,16 @@ Each dataset was measured with a sampling frequency of 12.8 kHz. The datasets we
 #### Gear Wear:
 <img width="146" height="195" alt="image" src="https://github.com/user-attachments/assets/c35979f7-916d-43d0-9a86-2f5e0d62c813" />
 
-#### Teeth Break
+#### Teeth Break:
 <img width="149" height="198" alt="image" src="https://github.com/user-attachments/assets/9cc303a8-2e05-46ba-853b-ac68deaf670a" />
 
-#### Teeth Crack
+#### Teeth Crack:
 <img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/944ec865-673a-4a35-84b3-4cbfab04869d" />
 
-#### Inner Race Fault
+#### Inner Race Fault:
 <img width="195" height="260" alt="image" src="https://github.com/user-attachments/assets/ae63ab8d-a803-4ea7-867d-dac5e2e1810f" />
 
-#### Outer Race Fault
+#### Outer Race Fault:
 <img width="193" height="257" alt="image" src="https://github.com/user-attachments/assets/bf4a1167-7096-4509-9474-c8473e20130e" />
 
 
