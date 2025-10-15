@@ -32,6 +32,26 @@ This repository houses a rich and extensive dataset capturing vibration signals 
 
 Each dataset was measured with a sampling frequency of 12.8 kHz. The datasets were stored in the standard Excel format, ".csv," in a single column without a time stamp. They were collected at time-varying speeds or time-varying loads for a fixed duration of 60 seconds, with the set speed-time curve and load-time curve depicted as follows. The number of colors in the figure is used to distinguish groups of experiments. Taking the 0-2500-3000 situation marked in blue in Figure 2(a) as an example, it means that the speed is set to 3000 rpm within 10-20 seconds and within 40-50 seconds. At the same time, the rotation speed is set to 2500 rpm within 25-30 seconds.
 
+## Fault Types
+#### Gear Pitting:
+<img width="147" height="195" alt="image" src="https://github.com/user-attachments/assets/23ba5441-0df5-4ade-b1c4-7bed843aceb0" />
+
+#### Gear Wear:
+<img width="146" height="195" alt="image" src="https://github.com/user-attachments/assets/c35979f7-916d-43d0-9a86-2f5e0d62c813" />
+
+#### Teeth Break
+<img width="149" height="198" alt="image" src="https://github.com/user-attachments/assets/9cc303a8-2e05-46ba-853b-ac68deaf670a" />
+
+#### Teeth Crack
+<img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/944ec865-673a-4a35-84b3-4cbfab04869d" />
+
+#### Inner Race Fault
+<img width="195" height="260" alt="image" src="https://github.com/user-attachments/assets/ae63ab8d-a803-4ea7-867d-dac5e2e1810f" />
+
+#### Outer Race Fault
+<img width="193" height="257" alt="image" src="https://github.com/user-attachments/assets/bf4a1167-7096-4509-9474-c8473e20130e" />
+
+
 ## Usage
 - If you want to perform visual analysis on a specific file, you can refer to the demo files in the "visual" folder.
 - **Note: The `.m` file and the CSV file to be plotted must be placed in the same directory.**
