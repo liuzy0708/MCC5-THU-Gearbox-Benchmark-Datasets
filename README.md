@@ -164,18 +164,45 @@ author = {Shijin Chen and Zeyi Liu and Xiao He and Dongliang Zou and Donghua Zho
 ```
 ## Publications Using This Dataset
 
-The following research works have utilized the **Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions** for experiments and analysis. Researchers can refer to the following articles for further insights:
+The following research works have utilized the **MCC5-THU Gearbox Benchmark Datasets** for experiments and analysis. Researchers can refer to the following articles for further insights:
 
-| Title | Journal | Year |
-|-------|---------|------|
-| Knowledge-informed FIR-based cross-category filtering framework for interpretable machinery fault diagnosis under small samples | Reliability Engineering & System Safety | 2025 |
-| Vibration-based gear wear area monitoring for quantitative assessment of wear severity under variable speed conditions | Mechanical Systems and Signal Processing | 2025 |
-| Geometry-Based Synchrosqueezing S-Transform with Shifted Instantaneous Frequency Estimator Applied to Gearbox Fault Diagnosis | Sensors | 2025 |
-| A Novel Compound Fault Diagnosis Method for Rotating Machinery based on Dynamic Adaptive MWPE and Dual-Graph Regularization Strategy | IEEE Sensors Journal | 2025 |
-| A multi-sensor fault diagnosis model with adaptive spatial-temporal dual-scale re-modeling | IEEE Sensors Journal | 2024 |
-| Accurate and Efficient Instantaneous Angular Speed Estimation Method for Rolling Bearing Under Time-varying Speed | IEEE Transactions on Instrumentation and Measurement | 2024 |
-| Imbalanced real-time fault diagnosis based on minority-prioritized online semi-supervised random vector functional link network | IEEE Transactions on Instrumentation and Measurement | 2024 |
-| Composite fault diagnosis of gearbox based on deep graph residual convolutional network | Engineering Research Express | 2024 |
+| Title | Journal / Conference | Year | 
+ | ----- | ----- | ----- | 
+| A dynamic anchor-based online semi-supervised learning approach for fault diagnosis under variable operating conditions | Neurocomputing | 2025 | 
+| MHSNet: A Multi-Scale Hidden State Interaction Network for Fault Diagnosis of Rotating Machinery | Tsinghua Sci. Technol | 2025 | 
+| Knowledge-informed FIR-based cross-category filtering framework for interpretable machinery fault diagnosis under small samples | Reliability Engineering & System Safety | 2025 | 
+| Vibration-based gear wear area monitoring for quantitative assessment of wear severity under variable speed conditions | Mechanical Systems and Signal Processing | 2025 | 
+| Imbalanced real-time fault diagnosis based on minority-prioritized online semi-supervised random vector functional link network | IEEE Transactions on Instrumentation and Measurement | 2024 | 
+| A graph representation learning-based method for fault diagnosis of rotating machinery under time-varying speed conditions | Nonlinear Dynamics | 2025 | 
+| Compound fault diagnosis method of rotating machinery using multi-view multi-label feature selection based on label compression and local label correlation | Advanced Engineering Informatics | 2025 | 
+| PLL-WCAN: Pseudo-label progressive learning guided wavelet class-aware adaptive network for gearbox cross-domain fault diagnosis | Mechanical Systems and Signal Processing | 2025 | 
+| An interpretable wavelet Kolmogorov--Arnold convolutional LSTM for spatial-temporal feature extraction and intelligent fault diagnosis | Journal of Dynamics, Monitoring and Diagnostics | 2025 | 
+| IBL-AE: An Interpretable Base Learning Autoencoder for Intelligent Fault Diagnosis of Rotating Machinery | Knowledge-Based Systems | 2025 | 
+| Accurate and efficient instantaneous angular speed estimation method for rolling bearing under time-varying speed | IEEE Transactions on Instrumentation and Measurement | 2024 | 
+| Multi-Channel and Multi-Scale Weight Adaptive Neural Network for Intelligent Rotating Speed Extraction | Expert Systems with Applications | 2025 | 
+| Local direction-synchrosqueezing transform: An energy-concentrated post-processing method and its application in mechanical fault feature extraction | Mechanical Systems and Signal Processing | 2025 | 
+| Multi-scale distance similarity entropy: A novel complexity measurement for gearbox fault diagnosis | Engineering Applications of Artificial Intelligence | 2025 | 
+| A mechanism-informed contrastive learning framework for zero-shot gear anomaly detection | Measurement | 2025 | 
+| An advanced framework for efficient Variational Mode Extraction in gearbox vibration response analysis | Measurement | 2026 | 
+| Residual feature-based semi-supervised anomaly detection for Gearbox under varying rotational speeds | Measurement | 2025 | 
+| Single-trend component extraction for fault diagnosis of rotating machinery under time-varying speed conditions | Measurement | 2025 | 
+| Enhancing SDP-CNN for Gear Fault Detection Under Variable Working Conditions via Multi-Order Tracking Filtering | Journal of Dynamics, Monitoring and Diagnostics | 2025 | 
+| Information-theoretic continuously indexed domain adaptation network with wavelet-scale-wise convolution for fault diagnosis under continuously varying working conditions | ISA transactions | 2025 | 
+| Composite fault diagnosis of gearbox based on deep graph residual convolutional network | Engineering Research Express | 2024 | 
+| Synchrosqueezing-based demodulation transform for analyzing complicated signal containing strong noise | IEEE Transactions on Instrumentation and Measurement | 2025 | 
+| A Novel Compound Fault Diagnosis Method for Rotating Machinery Based on Dynamic Adaptive MWPE and Dual-Graph Regularization Strategy | IEEE Sensors Journal | 2025 | 
+| Vibration characteristic analysis of a two-stage spur gear transmission system with tooth crack and profile shifted | Journal of Sound and Vibration | 2025 | 
+| Sparse Attention Coding-Timestep Shrinking Spiking Neural Network for Gearbox Fault Diagnosis | IEEE Sensors Journal | 2025 | 
+| Double synchronous and non-synchronous symbol fuzzy similarities: A feature extraction approach for gear fault diagnosis | Measurement | 2025 | 
+| HDNAT: A Transformer-Based Fault Diagnosis Model For Rotating Machinery Across Varying Damage Degrees | IEEE Transactions on Instrumentation and Measurement | 2025 | 
+| A multi-sensor fault diagnosis model with adaptive spatial-temporal dual-scale re-modeling | IEEE Sensors Journal | 2024 | 
+| Continuously Indexed Domain Generalization for Fault Diagnosis under Continuously Varying Working Conditions | IEEE Transactions on Instrumentation and Measurement | 2025 | 
+| A fault diagnosis method for rotating machinery based on spatiotemporal feature fusion | Journal of Mechanical Science and Technology | 2025 | 
+| An efficient fault diagnosis method for rotating machinery based on PageRank-guided cluster sampling and Pearson-Shannon feature selection | Journal of Mechanical Science and Technology | 2025 | 
+| Maximum reweighted local kurtosis deconvolutional filtering and application for time-varying speed rotating machinery fault diagnosis | Transactions of the Institute of Measurement and Control | 2025 | 
+| A lightweight gearbox fault diagnosis method based on multi-sensor information multi-dimensional fusion under small sample conditions | Measurement Science and Technology | 2025 | 
+| Gearbox fault diagnosis method based on adaptive multi-sensor data level fusion and fine-grained domain adaptation | Advances in Mechanical Engineering | 2025 | 
+| Analysis of shaft alignment on vibration and motor power consumption in cooling water pumps | Mechanical Science Reports | 2025 |
 
 Furthermore, we sincerely appreciate the NASA Ames Research Center and its team for their development and contribution to the open-source Python prognostics tool, [ProgPy](https://www.nasa.gov/organizations/otps/2024-software-of-the-year-award-co-winner-prognostics-python-packages-progpy/). We are especially grateful for their analysis and interpretation of the MCC5-THU gearbox fault diagnosis dataset's organizational structure in their [Technical Report](https://ntrs.nasa.gov/api/citations/20240015330/downloads/Magnus_Unified_Paper_141124%20-%20V2.pdf). This effort not only enhances the dataset’s applicability in the field of Condition Monitoring and Diagnostics (CM&D) but also provides valuable insights for further research. We look forward to the continued development of ProgPy in the field of Prognostics and Health Management (PHM), driving advancements in intelligent maintenance and fault diagnosis technologies.
 
