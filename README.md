@@ -234,3 +234,13 @@ We express our gratitude to the MCC5 Group Shanghai Co. LTD for their invaluable
 As stated in our paper, it is important to account for a multiplication factor due to the load applied to the output shaft, with measurements being taken from the input shaft. This factor is approximately 6. Additionally, please be aware that some unavoidable noise may occur during the start-stop phase of the equipment, although this is typically negligible and can generally be disregarded.
 
 Furthermore, in Version 1 of the dataset, an issue was identified with the torque measurements, specifically that the sign of the torque was reversed. This issue has been rectified in Version 2 of the dataset. Kindly ensure that the [[Latest Version]](https://data.mendeley.com/datasets/p92gj2732w/2) is being used for accurate results. We will continue to provide updates as needed.
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=liuzy0708%2FMCC5-THU-Gearbox-Benchmark-Datasets&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=liuzy0708/MCC5-THU-Gearbox-Benchmark-Datasets&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=liuzy0708/MCC5-THU-Gearbox-Benchmark-Datasets&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=liuzy0708/MCC5-THU-Gearbox-Benchmark-Datasets&type=date&legend=top-left" />
+ </picture>
+</a>
